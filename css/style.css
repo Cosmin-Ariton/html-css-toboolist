@@ -1,0 +1,123 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(233, 230, 230);
+}
+
+/* header */
+.logo{
+  padding: 10px;
+  background-color: white;
+}
+
+.logo h1, .logo img{
+  display: inline-block;
+  vertical-align: middle;
+}
+/* /header */
+
+/* nav */
+nav .container{
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.button_left{
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  background-color: rgb(0, 140, 255);
+}
+
+.button_right{
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  border: solid 1px black;
+  color: gray;
+}
+/* /nav */
+
+/* main */
+main{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 3px;
+  background-color: white;
+}
+
+main .container{
+  padding: 40px;
+}
+/* /main */
+
+/* first block */
+.new_task{
+  margin-bottom: 20px;
+}
+
+.check, .cross{
+  margin-top: 10px;
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+  border: solid 1px gray; 
+  width: 17px;
+	height: 17px;
+	border-radius: 50px;
+  display: inline-block;
+}
+
+.colored_text{
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-block;
+  color: white;
+}
+/* /first block */
+
+/* second block */
+.editorial{
+  background-color: rgb(0, 140, 255);
+}
+
+.q1_goals{
+  background-color: hsl(266, 72%, 66%);  
+}
+
+.recruiting{
+  background-color:  hsl(207, 77%, 71%);
+}
+
+.mobile{
+  background-color: orange;
+}
+/* /second block */
+
+/* third block */
+.upcoming{
+  margin-top: 20px;
+}
+
+.websites{
+  background-color: rgb(206, 80, 149);
+}
+
+.sales{
+  background-color: rgb(166, 223, 35);
+}
+/* /third block */
+
+/* /main */
